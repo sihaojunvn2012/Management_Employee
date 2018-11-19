@@ -50,11 +50,11 @@ const allReducer = (state = EmployeesInitialState, action) => {
     }
 }
 var store = redux.createStore(allReducer);
-store.subscribe(function () {
-    console.log(JSON.stringify(store.getState()));
-})
-store.subscribe (function(){
-    console.log(JSON.stringify(store.getstate()));
+// store.subscribe(function () {
+//     console.log(JSON.stringify(store.getState()));
+// })
+// store.subscribe (function(){
+//     console.log(JSON.stringify(store.getstate()));
     
-})
+// })
 export default store;
